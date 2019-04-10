@@ -10,8 +10,9 @@ int main()
   remain=n;
   for(num=0;num<n;num++)
   {
-    printf("Enter Arrival Time and Burst Time for Process Number %d :",num+1);
+    printf("Enter Arrival Time for process number %d :",num+1);
     scanf("%d",&at[num]);
+	printf("Burst Time for Process Number %d :",num+1);
     scanf("%d",&bt[num]);
     rt[num]=bt[num];
   }
